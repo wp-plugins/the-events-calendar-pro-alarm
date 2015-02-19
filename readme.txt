@@ -1,9 +1,9 @@
 === The Events Calendar PRO Alarm ===
-Contributors: afragen, jkudish
+Contributors: afragen
 Tags: events, ical feed, modern tribe, tribe
-Requires at least: 3.7
+Requires at least: 3.8
 Tested up to: 4.1
-Stable tag: 1.7.1
+Stable tag: 2.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -14,6 +14,8 @@ Add alarm/alert to iCal feed created from The Events Calendar PRO plugin.
 Are you using The Events Calendar PRO plugin? Do you wish that you could add an alarm or alert to any event?
 
 Simple, just install The Events Calendar PRO Alarm and in the Settings page for The Events Calendar PRO add an Additional Field for Alarms.
+
+Development on [GitHub](https://github.com/afragen/the-events-calendar-pro-alarm). Pull requests are welcome.
 
 == Installation ==
 
@@ -39,6 +41,12 @@ Add a new topic on the [WordPress Support Forum](http://wordpress.org/tags/the-e
 1. Additional Fields settings, generated automatically.
 
 == Changelog ==
+
+= 2.0.0 =
+* added [class Autoloader](https://github.com/afragen/autoloader), requires PHP 5.3 or greater as autoloader class requires namespacing 
+* class aliases for users of ECP 3.9 or lower
+* renamed directory and class names to allow for PSR 4 loading
+* add .pot file for translations
 
 = 1.7.1 =
 * tested to 4.1
